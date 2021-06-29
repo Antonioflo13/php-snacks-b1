@@ -7,9 +7,9 @@ function createArray ($num1, $num2, $arrayLength) {
     do {
         $array[] = rand($num1,$num2);
         $array = array_unique($array);
-    } while (count($array) <= $arrayLength);
+    } while (count($array) < $arrayLength);
     return $array;
 }
-var_dump(createArray(0,15,14));
+var_dump(createArray(0,100,14));
 
 ?>
