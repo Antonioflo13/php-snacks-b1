@@ -55,7 +55,7 @@ foreach ($posts as $key => $post) {
                 <li>
                     <?php echo $values; ?>
                 </li>
-            }
+            
         </ul>
         <?php 
         }
